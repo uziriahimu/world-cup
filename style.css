@@ -116,6 +116,8 @@ main {
     display: flex;
 }
 
+/* Match catagories start here  */
+
 .match-catagories {
     list-style: none;
     background-color: black;
@@ -151,7 +153,10 @@ main {
     color: white;
 }
 
-/* match details  */
+/* Match catagories end here  */
+
+/*----------- match details----------  */
+
 .match-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -160,6 +165,7 @@ main {
 }
 
 /*-------------- Blog match section start-------- */
+
 .blog-match {
     border: 1px solid #dfe0e0;
     border-radius: 10px;
@@ -272,7 +278,7 @@ main {
 /*-------------- upcoming match end-------- */
 
 
-/* footer section start here  */
+/*----- footer section start here-----  */
 footer {
     background-color: #161616;
     height: 400px;
@@ -325,7 +331,10 @@ hr {
 
 }
 
+/*------ footer  end here--------  */
+
 /* ----------Media queries ------ */
+
 @media screen and (max-width:480px) {
 
     main,
